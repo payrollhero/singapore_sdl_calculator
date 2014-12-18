@@ -5,7 +5,7 @@ require 'singapore_sdl_calculator/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "singapore_sdl_calculator"
-  spec.version       = SingaporeSdlCalculator::VERSION
+  spec.version       = SingaporeSDLCalculator::VERSION
   spec.authors       = ["Vincent Paca"]
   spec.email         = ["vpaca@payrollhero.com"]
   spec.summary       = "Calculator for Singapore Skill Development Levy"

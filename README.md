@@ -1,7 +1,7 @@
 # SingaporeSDLCalculator
 
-[![Code Climate](https://codeclimate.com/repos/549259c669568035d2001b40/badges/ed0a64be8baa03d50974/gpa.svg)](https://codeclimate.com/repos/549259c669568035d2001b40/feed)
-[![Test Coverage](https://codeclimate.com/repos/549259c669568035d2001b40/badges/ed0a64be8baa03d50974/coverage.svg)](https://codeclimate.com/repos/549259c669568035d2001b40/feed)
+[![Code Climate](https://codeclimate.com/github/payrollhero/singapore_sdl_calculator/badges/gpa.svg)](https://codeclimate.com/github/payrollhero/singapore_sdl_calculator)
+[![Test Coverage](https://codeclimate.com/github/payrollhero/singapore_sdl_calculator/badges/coverage.svg)](https://codeclimate.com/github/payrollhero/singapore_sdl_calculator)
 
 [![Circle CI](https://circleci.com/gh/payrollhero/singapore_sdl_calculator.svg?style=svg)](https://circleci.com/gh/payrollhero/singapore_sdl_calculator)
 

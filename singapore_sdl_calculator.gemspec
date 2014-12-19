@@ -6,8 +6,8 @@ require 'singapore_sdl_calculator/version'
 Gem::Specification.new do |spec|
   spec.name          = "singapore_sdl_calculator"
   spec.version       = SingaporeSDLCalculator::VERSION
-  spec.authors       = ["Vincent Paca"]
-  spec.email         = ["vpaca@payrollhero.com"]
+  spec.authors       = ["Vincent Paca", "Ronald Maravilla"]
+  spec.email         = ["vpaca@payrollhero.com", "rmaravilla@payrollhero.com"]
   spec.summary       = "Calculator for Singapore Skill Development Levy"
   spec.description   = "Calculates for the employer contributions for the Skill Development Levy Act contribution per employee."
   spec.homepage      = "https://github.com/payrollhero/singapore_sdl_calculator"

@@ -12,26 +12,25 @@ module SingaporeSDLCalculator
     private
 
     def determine_contribution_for(amount)
-      rate = amount * levy_rate
-
-      case
-      when rate < minimum_levy_rate then minimum_levy_rate
-      when rate > maximum_levy_rate then maximum_levy_rate
-      else
-        rate
-      end
+      bounded(amount * levy_rate)
     end
 
     def levy_rate
-      0.0025
+      BigDecimal "0.0025"
     end
 
     def minimum_levy_rate
-      2.00
+      BigDecimal "2.00"
     end
 
     def maximum_levy_rate
-      11.25
+      BigDecimal "11.25"
+    end
+
+    # For any value within the bounds it returns the original value. Otherwise returns the lower limit or upper limit
+    # depending on which limit is closer.
+    def bounded(rate)
+      [[rate, maximum_levy_rate].min, minimum_levy_rate].max
     end
 
   end
